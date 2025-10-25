@@ -3,7 +3,7 @@
 A **dynamic user search app** built with **HTML, CSS, and JavaScript**.  
 Filter through a list of users in real-time with a **debounced search input** and see user cards with profile pictures and bios.  
 
-🌐 **Live Demo:** [Click Here to Try It!](https://pawancodecrafts.github.io/user-search/)  
+🌐 **Live Demo:** [Click Here to Try It!](https://pawancodecrafts.github.io/userSearchFilter-js/)  
 
 ---
 
