@@ -131,13 +131,12 @@ function handleSearch() {
 }
 
 function debounce(func, delay) {
-    let timeout; // stores the timer
-    return function () {
-        clearTimeout(timeout);       // stop the previous timer
-        timeout = setTimeout(func, delay); // start a new timer
+    let timeout;
+    return function (...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), delay);
     }
 }
 
 // searchInp.addEventListener('input',handleSearch)
 searchInp.addEventListener('input', debounce(handleSearch, 200));
-
