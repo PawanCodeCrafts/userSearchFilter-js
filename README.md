@@ -5,7 +5,11 @@ Filter through a list of users in real-time with a **debounced search input** an
 
 🌐 **Live Demo:** [Click Here to Try It!](https://pawancodecrafts.github.io/userSearchFilter-js/)  
 
----
+Screenshots for quick view:
+
+<img src="screenshots/img1.png" alt="Home Page Screenshot" width="400">
+<img src="screenshots/img2.png" alt="Home Page Screenshot" width="400">
+
 
 ## 🪄 Features
 - 🔹 **Dynamic search:** Filter users as you type  
