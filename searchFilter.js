@@ -139,4 +139,5 @@ function debounce(func, delay) {
 }
 
 // searchInp.addEventListener('input',handleSearch)
-searchInp.addEventListener('input', debounce(handleSearch, 200));
+searchInp.addEventListener('input', debounce(handleSearch, 1000));
+
